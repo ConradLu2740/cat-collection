@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猫咪收藏馆 · 文章收藏</title>
+  <meta name="description" content="猫咪相关文章收藏，支持标签筛选、搜索与阅读状态标记。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🐱</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-svg"></span>
+        <span>猫咪收藏馆</span>
+      </a>
+      <nav class="nav-links" id="site-nav"></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <h1>📰 文章收藏</h1>
+      <p>猫科普、养护、行为与趣闻文章的收藏夹；点击卡片直达原文。</p>
+    </div>
+
+    <div class="toolbar">
+      <div class="toolbar-row" id="tag-filters"></div>
+      <div class="toolbar-row">
+        <select class="filter-select" id="read-filter">
+          <option value="all">全部阅读状态</option>
+          <option value="read">已读</option>
+          <option value="unread">未读</option>
+        </select>
+        <input type="search" id="search-input" placeholder="🔍 搜索标题、摘要、来源…">
+        <span style="font-size:13px;color:var(--ink-soft);" id="count-label"></span>
+      </div>
+    </div>
+
+    <div class="cards-grid" id="articles-list"></div>
+    <div class="empty-tip" id="empty-tip" style="display:none;">没有符合条件的文章 🐾</div>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/articles.js"></script>
+</body>
+</html>

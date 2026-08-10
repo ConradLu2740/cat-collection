@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE3B3"/>
+      <stop offset="1" stop-color="#FFB75E"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF7D6"/>
+      <stop offset="0.6" stop-color="#FFD86B"/>
+      <stop offset="1" stop-color="#FFC93C"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <circle cx="330" cy="60" r="45" fill="url(#sun)" opacity="0.95"/>
+  <rect y="235" width="400" height="65" fill="#F2C98F"/>
+  <rect y="240" width="400" height="60" fill="#E8B879"/>
+  <!-- 窗台 -->
+  <rect x="0" y="218" width="400" height="20" fill="#D9A05F" rx="4"/>
+  <!-- 橘猫身体 -->
+  <ellipse cx="195" cy="205" rx="80" ry="48" fill="#F5A623"/>
+  <ellipse cx="150" cy="238" rx="38" ry="20" fill="#F5A623"/>
+  <ellipse cx="240" cy="238" rx="38" ry="20" fill="#F5A623"/>
+  <ellipse cx="150" cy="238" rx="38" ry="20" fill="#ED9A18"/>
+  <ellipse cx="240" cy="238" rx="38" ry="20" fill="#ED9A18"/>
+  <!-- 尾巴 -->
+  <path d="M275 205 Q320 170 310 140 Q305 125 290 128" stroke="#F5A623" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- 猫头 -->
+  <circle cx="195" cy="140" r="55" fill="#F7B733"/>
+  <!-- 耳朵 -->
+  <path d="M150 105 L138 45 L185 88 Z" fill="#F7B733"/>
+  <path d="M240 105 L252 45 L205 88 Z" fill="#F7B733"/>
+  <path d="M152 102 L144 60 L178 90 Z" fill="#F5A0A0"/>
+  <path d="M238 102 L246 60 L212 90 Z" fill="#F5A0A0"/>
+  <!-- 面部 -->
+  <ellipse cx="175" cy="140" rx="9" ry="11" fill="#5B3A29"/>
+  <ellipse cx="215" cy="140" rx="9" ry="11" fill="#5B3A29"/>
+  <circle cx="178" cy="137" r="3.5" fill="#FFF"/>
+  <circle cx="218" cy="137" r="3.5" fill="#FFF"/>
+  <path d="M195 148 Q195 158 180 158 Q168 158 168 150" fill="none" stroke="#5B3A29" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M195 148 Q195 158 210 158 Q222 158 222 150" fill="none" stroke="#5B3A29" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="195" cy="166" rx="10" ry="7" fill="#E8836B"/>
+  <path d="M185 132 L160 126" stroke="#5B3A29" stroke-width="2" stroke-linecap="round"/>
+  <path d="M205 132 L230 126" stroke="#5B3A29" stroke-width="2" stroke-linecap="round"/>
+  <!-- 条纹 -->
+  <path d="M175 90 Q185 80 195 90" stroke="#E08E0C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M185 96 Q195 86 205 96" stroke="#E08E0C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 睡姿 Z -->
+  <text x="120" y="70" font-family="Georgia, serif" font-size="24" fill="#C9761F" opacity="0.7">z</text>
+  <text x="100" y="52" font-family="Georgia, serif" font-size="18" fill="#C9761F" opacity="0.5">z</text>
+</svg>

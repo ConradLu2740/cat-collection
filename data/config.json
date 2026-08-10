@@ -1,0 +1,15 @@
+{
+  "siteTitle": "猫咪收藏馆",
+  "subtitle": "Conrad 的猫图与猫文收藏 · 分析与分享",
+  "owner": "Conrad",
+  "basePath": "/cat-collection",
+  "imageCategories": ["橘猫", "布偶", "英短", "美短", "流浪猫", "幼猫", "日常", "摄影"],
+  "articleTags": ["科普", "养护", "行为", "趣闻", "健康", "领养", "摄影"],
+  "sourceSites": ["知乎", "果壳", "猫研所", "B站", "小红书", "维基百科"],
+  "nav": [
+    { "label": "首页", "href": "index.html", "icon": "🏠" },
+    { "label": "图片收藏", "href": "gallery.html", "icon": "🖼️" },
+    { "label": "文章收藏", "href": "articles.html", "icon": "📰" },
+    { "label": "数据分析", "href": "analytics.html", "icon": "📊" }
+  ]
+}

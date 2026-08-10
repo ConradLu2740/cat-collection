@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猫咪收藏馆 · 首页</title>
+  <meta name="description" content="Conrad 的个人猫咪收藏分析站：猫图与猫文收藏、数据分析。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='52' font-size='52'>🐱</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-svg"></span>
+        <span>猫咪收藏馆</span>
+      </a>
+      <nav class="nav-links" id="site-nav"></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>收集每一份 <span class="paw">喵</span> 的美好</h1>
+        <p>这里是 <strong>Conrad</strong> 的个人猫咪收藏馆 —— 收藏喜欢的猫图与猫文，用数据看看自己的「吸猫」足迹。</p>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="100" cy="100" r="92" fill="#FFE9C9"/>
+          <circle cx="100" cy="112" r="58" fill="#F5A623"/>
+          <path d="M52 80 L36 28 L84 62 Z" fill="#F5A623"/>
+          <path d="M148 80 L164 28 L116 62 Z" fill="#F5A623"/>
+          <path d="M56 74 L45 42 L78 62 Z" fill="#F0B8B8"/>
+          <path d="M144 74 L155 42 L122 62 Z" fill="#F0B8B8"/>
+          <circle cx="80" cy="108" r="7" fill="#3A2416"/>
+          <circle cx="120" cy="108" r="7" fill="#3A2416"/>
+          <circle cx="82" cy="106" r="2.6" fill="#fff"/>
+          <circle cx="122" cy="106" r="2.6" fill="#fff"/>
+          <path d="M94 128 L106 128 L100 138 Z" fill="#E8836B"/>
+          <path d="M100 138 Q92 150 84 146" stroke="#4A3428" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M100 138 Q108 150 116 146" stroke="#4A3428" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M70 124 L42 118" stroke="#4A3428" stroke-width="2" stroke-linecap="round"/>
+          <path d="M130 124 L158 118" stroke="#4A3428" stroke-width="2" stroke-linecap="round"/>
+          <path d="M70 132 L44 134" stroke="#4A3428" stroke-width="2" stroke-linecap="round"/>
+          <path d="M130 132 L156 134" stroke="#4A3428" stroke-width="2" stroke-linecap="round"/>
+          <path d="M62 92 Q74 84 88 90" stroke="#E08E0C" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M138 92 Q126 84 112 90" stroke="#E08E0C" stroke-width="3" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <div class="stats-grid" id="stats-grid"></div>
+
+    <h2 class="section-title">🖼️ 最新收藏的猫图</h2>
+    <div class="latest-grid" id="latest-images"></div>
+
+    <h2 class="section-title">📰 最近收藏的文章</h2>
+    <div class="latest-grid" id="latest-articles"></div>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
