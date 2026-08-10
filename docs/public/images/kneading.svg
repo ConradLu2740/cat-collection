@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9D8"/>
+      <stop offset="1" stop-color="#FFD2B0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 毯子 -->
+  <path d="M60 220 Q200 180 340 220 L340 280 L60 280 Z" fill="#F0A8C8" rx="20"/>
+  <path d="M60 220 Q200 180 340 220" stroke="#E88FB4" stroke-width="6" fill="none"/>
+  <!-- 猫的身体（俯视趴着踩奶） -->
+  <ellipse cx="200" cy="185" rx="105" ry="60" fill="#F7B733"/>
+  <ellipse cx="140" cy="150" rx="36" ry="26" fill="#F9C14A"/>
+  <ellipse cx="260" cy="150" rx="36" ry="26" fill="#F9C14A"/>
+  <!-- 头 -->
+  <circle cx="200" cy="115" r="42" fill="#F9C14A"/>
+  <path d="M166 92 L150 48 L188 80 Z" fill="#F9C14A"/>
+  <path d="M234 92 L250 48 L212 80 Z" fill="#F9C14A"/>
+  <path d="M170 88 L158 58 L184 78 Z" fill="#F5A0A0"/>
+  <path d="M230 88 L242 58 L216 78 Z" fill="#F5A0A0"/>
+  <!-- 闭眼享受 -->
+  <path d="M178 110 Q188 102 198 110" stroke="#5B3A29" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M202 110 Q212 102 222 110" stroke="#5B3A29" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M196 128 L204 128 L200 134 Z" fill="#E8836B"/>
+  <path d="M200 134 Q193 142 187 139" stroke="#5B3A29" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M200 134 Q207 142 213 139" stroke="#5B3A29" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- 前爪交替踩踏 -->
+  <ellipse cx="160" cy="215" rx="24" ry="14" fill="#F9C14A" transform="rotate(-10 160 215)"/>
+  <ellipse cx="240" cy="205" rx="24" ry="14" fill="#F9C14A" transform="rotate(10 240 205)"/>
+  <ellipse cx="150" cy="220" rx="10" ry="7" fill="#F0A0A0" transform="rotate(-10 150 220)"/>
+  <ellipse cx="250" cy="210" rx="10" ry="7" fill="#F0A0A0" transform="rotate(10 250 210)"/>
+  <!-- 踩奶节奏线 -->
+  <path d="M300 170 Q315 160 330 170" stroke="#C9761F" stroke-width="2.5" fill="none" opacity="0.5"/>
+  <path d="M305 182 Q320 172 335 182" stroke="#C9761F" stroke-width="2.5" fill="none" opacity="0.35"/>
+  <!-- 爱心 -->
+  <path d="M320 110 Q320 95 335 95 Q350 95 350 110 Q350 128 335 138 Q320 128 320 110 Z" fill="#E8836B" opacity="0.8"/>
+</svg>

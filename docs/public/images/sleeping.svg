@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF3E3"/>
+      <stop offset="1" stop-color="#F5DFC0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 猫窝/垫子 -->
+  <ellipse cx="200" cy="225" rx="150" ry="50" fill="#E8A87C"/>
+  <ellipse cx="200" cy="215" rx="140" ry="44" fill="#F0BC90"/>
+  <!-- 卷成球的猫身体 -->
+  <circle cx="200" cy="170" r="82" fill="#F7B733"/>
+  <circle cx="200" cy="170" r="82" fill="none" stroke="#ED9A18" stroke-width="4" stroke-dasharray="20 14" opacity="0.7"/>
+  <!-- 头埋进身体，露出半张脸 -->
+  <circle cx="200" cy="170" r="42" fill="#F9C14A"/>
+  <path d="M168 148 L152 108 L186 136 Z" fill="#F9C14A"/>
+  <path d="M232 148 L248 108 L214 136 Z" fill="#F9C14A"/>
+  <path d="M171 144 L159 116 L182 134 Z" fill="#F5A0A0"/>
+  <path d="M229 144 L241 116 L218 134 Z" fill="#F5A0A0"/>
+  <!-- 闭眼 -->
+  <path d="M180 165 Q190 158 200 165" stroke="#5B3A29" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M200 165 Q210 158 220 165" stroke="#5B3A29" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M196 180 L204 180 L200 186 Z" fill="#E8836B"/>
+  <!-- 尾巴圈住身体 -->
+  <path d="M282 200 Q310 190 300 160 Q290 130 255 138" stroke="#F5A623" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- ZZZ -->
+  <text x="290" y="90" font-family="Georgia, serif" font-size="26" fill="#C9761F" opacity="0.7">z</text>
+  <text x="312" y="70" font-family="Georgia, serif" font-size="20" fill="#C9761F" opacity="0.5">z</text>
+  <text x="330" y="52" font-family="Georgia, serif" font-size="15" fill="#C9761F" opacity="0.35">z</text>
+</svg>

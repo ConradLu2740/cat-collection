@@ -9,5 +9,7 @@
 - [猫的耳朵语言](/behavior/ear-language)
 - [猫的瞳孔语言](/behavior/eye-language)
 - [猫的叫声与喵喵叫](/behavior/cat-vocalizations)
+- [猫的呼噜声](/behavior/purring)
 - [踩奶](/behavior/kneading)
 - [猫的睡眠习性](/behavior/sleeping-habits)
+- [抓挠与磨爪](/behavior/scratching)

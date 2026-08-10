@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF0E1"/>
+      <stop offset="1" stop-color="#FFDDB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 尾巴主体：大 S 曲线 -->
+  <path d="M120 260 Q60 230 60 180 Q60 120 130 100 Q200 80 240 110 Q280 140 250 190" stroke="#F5A623" stroke-width="42" fill="none" stroke-linecap="round"/>
+  <path d="M120 260 Q60 230 60 180 Q60 120 130 100 Q200 80 240 110 Q280 140 250 190" stroke="#F9C14A" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <!-- 尾尖 -->
+  <path d="M240 165 Q268 158 262 188" stroke="#E8836B" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- 动感线条 -->
+  <path d="M70 150 Q85 140 100 148" stroke="#C9761F" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M110 90 Q125 78 140 86" stroke="#C9761F" stroke-width="3" fill="none" opacity="0.4"/>
+  <!-- 猫爪印装饰 -->
+  <g fill="#E8836B" opacity="0.5">
+    <circle cx="300" cy="240" r="7"/>
+    <circle cx="318" cy="232" r="7"/>
+    <circle cx="336" cy="240" r="7"/>
+    <circle cx="318" cy="250" r="9"/>
+    <circle cx="280" cy="120" r="5"/>
+    <circle cx="294" cy="114" r="5"/>
+    <circle cx="308" cy="120" r="5"/>
+    <circle cx="294" cy="127" r="6"/>
+  </g>
+</svg>

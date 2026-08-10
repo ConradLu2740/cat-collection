@@ -9,3 +9,5 @@
 - [猫的日常护理](/care/grooming)
 - [猫砂与如厕训练](/care/litter-box)
 - [猫的玩具与丰容](/care/enrichment)
+- [老年猫护理](/care/senior-cat)
+- [多猫家庭相处](/care/multi-cat)

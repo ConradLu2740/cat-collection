@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8F0FD"/>
+      <stop offset="1" stop-color="#C7D9F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 猫头大特写（张嘴喵叫） -->
+  <circle cx="200" cy="155" r="120" fill="#F7B733"/>
+  <path d="M98 128 L62 38 L176 100 Z" fill="#F7B733"/>
+  <path d="M302 128 L338 38 L224 100 Z" fill="#F7B733"/>
+  <path d="M104 120 L80 52 L164 100 Z" fill="#F5A0A0"/>
+  <path d="M296 120 L320 52 L236 100 Z" fill="#F5A0A0"/>
+  <!-- 条纹 -->
+  <path d="M165 88 Q200 72 235 88" stroke="#E08E0C" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- 眼睛（圆睁） -->
+  <circle cx="160" cy="140" r="20" fill="#FFF"/>
+  <circle cx="240" cy="140" r="20" fill="#FFF"/>
+  <circle cx="160" cy="140" r="14" fill="#4A6E28"/>
+  <circle cx="240" cy="140" r="14" fill="#4A6E28"/>
+  <circle cx="163" cy="137" r="5" fill="#FFF"/>
+  <circle cx="243" cy="137" r="5" fill="#FFF"/>
+  <!-- 张嘴 -->
+  <ellipse cx="200" cy="188" rx="30" ry="34" fill="#7A3B2E"/>
+  <ellipse cx="200" cy="178" rx="24" ry="18" fill="#E8836B"/>
+  <path d="M178 174 Q200 186 222 174" stroke="#C26A54" stroke-width="3" fill="none"/>
+  <path d="M200 184 L200 208" stroke="#7A3B2E" stroke-width="3"/>
+  <!-- 胡须（因张嘴上扬） -->
+  <path d="M148 168 L78 158" stroke="#5B3A29" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M146 182 L74 184" stroke="#5B3A29" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M252 168 L322 158" stroke="#5B3A29" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M254 182 L326 184" stroke="#5B3A29" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 声音波浪 -->
+  <path d="M330 120 Q350 108 370 120" stroke="#0071E3" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M338 96 Q358 84 378 96" stroke="#0071E3" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M346 72 Q366 60 386 72" stroke="#0071E3" stroke-width="3" fill="none" opacity="0.35"/>
+</svg>

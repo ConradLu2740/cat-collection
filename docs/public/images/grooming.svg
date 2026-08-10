@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4F4F8"/>
+      <stop offset="1" stop-color="#DEDEE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 猫（坐着被梳毛，享受） -->
+  <ellipse cx="150" cy="225" rx="70" ry="50" fill="#E7E9ED"/>
+  <circle cx="150" cy="150" r="58" fill="#E7E9ED"/>
+  <path d="M102 128 L84 72 L128 114 Z" fill="#E7E9ED"/>
+  <path d="M198 128 L216 72 L172 114 Z" fill="#E7E9ED"/>
+  <path d="M106 124 L94 84 L124 112 Z" fill="#F0B8B8"/>
+  <path d="M194 124 L206 84 L176 112 Z" fill="#F0B8B8"/>
+  <!-- 闭眼享受 -->
+  <path d="M130 148 Q140 141 150 148" stroke="#6E5A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M150 148 Q160 141 170 148" stroke="#6E5A4A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M145 166 L155 166 L150 172 Z" fill="#E8836B"/>
+  <path d="M150 172 Q143 180 137 177" stroke="#6E5A4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M150 172 Q157 180 163 177" stroke="#6E5A4A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- 尾巴 -->
+  <path d="M220 240 Q260 245 258 220 Q256 200 240 205" stroke="#E7E9ED" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- 主人手 + 梳子 -->
+  <g transform="rotate(-18 290 120)">
+    <ellipse cx="285" cy="125" rx="30" ry="18" fill="#F5C9B0"/>
+    <rect x="250" y="108" width="60" height="16" rx="8" fill="#8A94A2"/>
+    <rect x="250" y="108" width="60" height="8" rx="4" fill="#AAB3BF"/>
+    <g fill="#8A94A2">
+      <rect x="252" y="124" width="4" height="12" rx="1"/>
+      <rect x="262" y="124" width="4" height="12" rx="1"/>
+      <rect x="272" y="124" width="4" height="12" rx="1"/>
+      <rect x="282" y="124" width="4" height="12" rx="1"/>
+      <rect x="292" y="124" width="4" height="12" rx="1"/>
+    </g>
+  </g>
+  <!-- 飘落的毛 -->
+  <path d="M120 95 Q115 105 120 115" stroke="#C7CCD4" stroke-width="2.5" fill="none" opacity="0.7"/>
+  <path d="M150 85 Q145 98 150 108" stroke="#C7CCD4" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M180 92 Q177 102 180 112" stroke="#C7CCD4" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>

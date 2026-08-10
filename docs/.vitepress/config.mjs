@@ -51,12 +51,15 @@ export default defineConfig({
           { text: '品种百科总览', link: '/breeds/' },
           { text: '中华田园猫', link: '/breeds/domestic-cat' },
           { text: '橘猫', link: '/breeds/orange-tabby' },
+          { text: '狸花猫', link: '/breeds/lihua-cat' },
           { text: '猫咪毛色大全', link: '/breeds/coat-colors' },
           { text: '幼猫成长阶段', link: '/breeds/kitten-growth' },
           { text: '流浪猫', link: '/breeds/stray-cat' },
           { text: '布偶猫', link: '/breeds/ragdoll' },
           { text: '英国短毛猫', link: '/breeds/british-shorthair' },
-          { text: '美国短毛猫', link: '/breeds/american-shorthair' }
+          { text: '美国短毛猫', link: '/breeds/american-shorthair' },
+          { text: '暹罗猫', link: '/breeds/siamese' },
+          { text: '缅因猫', link: '/breeds/maine-coon' }
         ]}
       ],
       '/behavior/': [
@@ -67,8 +70,10 @@ export default defineConfig({
           { text: '猫的耳朵语言', link: '/behavior/ear-language' },
           { text: '猫的瞳孔语言', link: '/behavior/eye-language' },
           { text: '猫的叫声与喵喵叫', link: '/behavior/cat-vocalizations' },
+          { text: '猫的呼噜声', link: '/behavior/purring' },
           { text: '踩奶', link: '/behavior/kneading' },
-          { text: '猫的睡眠习性', link: '/behavior/sleeping-habits' }
+          { text: '猫的睡眠习性', link: '/behavior/sleeping-habits' },
+          { text: '抓挠与磨爪', link: '/behavior/scratching' }
         ]}
       ],
       '/health/': [
@@ -76,6 +81,11 @@ export default defineConfig({
           { text: '健康与疾病总览', link: '/health/' },
           { text: '常见健康问题自查清单', link: '/health/common-issues-checklist' },
           { text: '猫的常见传染病', link: '/health/infectious-diseases' },
+          { text: '猫瘟详解', link: '/health/feline-panleukopenia' },
+          { text: '猫鼻支详解', link: '/health/feline-herpesvirus' },
+          { text: '猫传染性腹膜炎 FIP', link: '/health/fip' },
+          { text: '猫泌尿系统疾病', link: '/health/urinary-disease' },
+          { text: '猫皮肤病', link: '/health/skin-disease' },
           { text: '疫苗与驱虫', link: '/health/vaccination-deworming' },
           { text: '绝育', link: '/health/spay-neuter' }
         ]}
@@ -87,7 +97,9 @@ export default defineConfig({
           { text: '猫的饮食与营养', link: '/care/diet-nutrition' },
           { text: '猫的日常护理', link: '/care/grooming' },
           { text: '猫砂与如厕训练', link: '/care/litter-box' },
-          { text: '猫的玩具与丰容', link: '/care/enrichment' }
+          { text: '猫的玩具与丰容', link: '/care/enrichment' },
+          { text: '老年猫护理', link: '/care/senior-cat' },
+          { text: '多猫家庭相处', link: '/care/multi-cat' }
         ]}
       ],
       '/adoption/': [

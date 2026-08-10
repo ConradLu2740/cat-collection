@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A8B8C8"/>
+      <stop offset="1" stop-color="#7C8FA3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 地面 -->
+  <rect y="245" width="400" height="55" fill="#5E6E7E"/>
+  <!-- 路灯 -->
+  <rect x="60" y="150" width="10" height="95" fill="#3A4550"/>
+  <circle cx="65" cy="145" r="18" fill="#FFE9A8"/>
+  <circle cx="65" cy="145" r="28" fill="#FFE9A8" opacity="0.22"/>
+  <!-- 流浪猫蹲坐 -->
+  <path d="M190 245 L190 225 Q190 200 205 185 L205 175 L225 175 L225 185 Q240 200 240 225 L240 245 Z" fill="#3B4250"/>
+  <circle cx="215" cy="155" r="26" fill="#3B4250"/>
+  <path d="M196 140 L188 105 L212 132 Z" fill="#3B4250"/>
+  <path d="M234 140 L242 105 L218 132 Z" fill="#3B4250"/>
+  <path d="M199 136 L194 112 L210 130 Z" fill="#5A6474"/>
+  <path d="M231 136 L236 112 L220 130 Z" fill="#5A6474"/>
+  <circle cx="207" cy="155" r="4.5" fill="#FFE9A8"/>
+  <circle cx="223" cy="155" r="4.5" fill="#FFE9A8"/>
+  <path d="M240 245 Q260 250 255 235 Q252 225 242 228" stroke="#3B4250" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="200" cy="248" rx="10" ry="6" fill="#3B4250"/>
+  <ellipse cx="228" cy="248" rx="10" ry="6" fill="#3B4250"/>
+  <!-- 旁边的小饭盆 -->
+  <ellipse cx="140" cy="240" rx="18" ry="9" fill="#5A6474"/>
+  <ellipse cx="140" cy="236" rx="18" ry="8" fill="#FFB347"/>
+  <!-- 爱心（领养希望） -->
+  <path d="M330 90 Q330 74 344 74 Q358 74 358 90 Q358 106 344 116 Q330 106 330 90 Z" fill="#E8836B" opacity="0.85"/>
+  <circle cx="120" cy="60" r="2" fill="#FFF" opacity="0.8"/>
+  <circle cx="300" cy="80" r="2" fill="#FFF" opacity="0.6"/>
+  <circle cx="350" cy="40" r="2" fill="#FFF" opacity="0.7"/>
+  <circle cx="200" cy="50" r="1.6" fill="#FFF" opacity="0.5"/>
+</svg>

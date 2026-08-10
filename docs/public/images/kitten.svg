@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF0E1"/>
+      <stop offset="1" stop-color="#FFDDB8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <!-- 小奶猫 -->
+  <ellipse cx="170" cy="235" rx="45" ry="32" fill="#F7B733"/>
+  <circle cx="195" cy="185" r="36" fill="#F9C14A"/>
+  <path d="M166 164 L152 124 L186 150 Z" fill="#F9C14A"/>
+  <path d="M224 164 L238 124 L204 150 Z" fill="#F9C14A"/>
+  <path d="M169 160 L159 132 L182 148 Z" fill="#F5A0A0"/>
+  <path d="M221 160 L231 132 L208 148 Z" fill="#F5A0A0"/>
+  <circle cx="185" cy="182" r="8" fill="#FFF"/>
+  <circle cx="207" cy="182" r="8" fill="#FFF"/>
+  <circle cx="185" cy="182" r="6" fill="#4A6E28"/>
+  <circle cx="207" cy="182" r="6" fill="#4A6E28"/>
+  <circle cx="187" cy="180" r="2.2" fill="#FFF"/>
+  <circle cx="209" cy="180" r="2.2" fill="#FFF"/>
+  <path d="M194 194 L200 194 L197 199 Z" fill="#E8836B"/>
+  <path d="M197 199 Q192 205 187 203" stroke="#5B3A29" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M197 199 Q202 205 207 203" stroke="#5B3A29" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- 奶瓶 -->
+  <g transform="rotate(-12 300 150)">
+    <rect x="270" y="100" width="60" height="90" rx="16" fill="#E8E9EE" stroke="#C7CCD4" stroke-width="3"/>
+    <rect x="278" y="108" width="44" height="50" rx="8" fill="#E8836B"/>
+    <text x="292" y="140" font-family="Arial" font-size="12" fill="#FFF" font-weight="bold">奶</text>
+    <rect x="292" y="186" width="16" height="14" rx="4" fill="#C7CCD4"/>
+    <path d="M300 200 Q312 206 306 214" stroke="#F0A8C8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 奶滴 -->
+  <circle cx="316" cy="228" r="3" fill="#FFF5E6"/>
+  <circle cx="322" cy="238" r="2" fill="#FFF5E6" opacity="0.7"/>
+  <!-- 小猫抬头期待 -->
+  <path d="M140 190 Q128 180 140 170" stroke="#C9761F" stroke-width="2.5" fill="none" opacity="0.4"/>
+  <path d="M120 205 Q108 195 120 185" stroke="#C9761F" stroke-width="2.5" fill="none" opacity="0.3"/>
+</svg>

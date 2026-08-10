@@ -6,9 +6,12 @@
 
 - [中华田园猫](/breeds/domestic-cat)
 - [橘猫](/breeds/orange-tabby)
+- [狸花猫](/breeds/lihua-cat)
 - [猫咪毛色大全](/breeds/coat-colors)
 - [幼猫成长阶段](/breeds/kitten-growth)
 - [流浪猫](/breeds/stray-cat)
 - [布偶猫](/breeds/ragdoll)
 - [英国短毛猫](/breeds/british-shorthair)
 - [美国短毛猫](/breeds/american-shorthair)
+- [暹罗猫](/breeds/siamese)
+- [缅因猫](/breeds/maine-coon)
