@@ -21,15 +21,41 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:title', content: '猫咪知识库' }],
     ['meta', { name: 'twitter:description', content: '关于猫的知识 wiki —— 品种、行为、健康、饲养、领养、文化' }]
+    // 🔧 访问统计接入点：在下方加入你的统计脚本（如 Cloudflare Web Analytics）
+    // 例：['script', { src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token":"你的token"}', defer: '' }]
   ],
   transformHead({ pageData }) {
     const rel = pageData.relativePath.replace(/\.md$/, '')
     const url = rel === 'index'
       ? 'https://conradlu2740.github.io/cat-collection/'
       : `https://conradlu2740.github.io/cat-collection/${rel}`
+    const title = pageData.title || '猫咪知识库'
+    const desc = pageData.description || '关于猫的知识 wiki —— 品种、行为、健康、饲养、领养、文化'
+    const updatedRaw = pageData.frontmatter?.updated || pageData.date
+    const updated = updatedRaw ? new Date(updatedRaw).toISOString() : new Date().toISOString()
+    const schema = rel === 'index'
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: '猫咪知识库',
+          alternateName: 'Cat Wiki',
+          description: desc,
+          url: 'https://conradlu2740.github.io/cat-collection/'
+        }
+      : {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: title,
+          description: desc,
+          url,
+          author: { '@type': 'Person', name: 'Conrad' },
+          publisher: { '@type': 'Organization', name: '猫咪知识库' },
+          dateModified: updated
+        }
     return [
       ['link', { rel: 'canonical', href: url }],
-      ['meta', { property: 'og:url', content: url }]
+      ['meta', { property: 'og:url', content: url }],
+      ['script', { type: 'application/ld+json' }, JSON.stringify(schema)]
     ]
   },
   themeConfig: {
@@ -120,6 +146,7 @@ export default defineConfig({
       ],
       '/guide/': [
         { text: '关于本站', items: [
+          { text: '新手学习路径', link: '/guide/learning-path' },
           { text: '内容体系规范', link: '/guide/content-guide' },
           { text: '关于猫咪知识库', link: '/guide/about' }
         ]}

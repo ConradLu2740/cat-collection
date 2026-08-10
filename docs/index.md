@@ -45,6 +45,7 @@ features:
 
 ## 📖 快速开始
 
+- **刚接触本站？** → [新手学习路径](/guide/learning-path)（三条路线带你读完 40+ 词条）
 - **新手养猫？** → [新手养猫全指南](/care/new-owner-guide)
 - **想知道猫在想什么？** → [猫的行为语言](/behavior/cat-body-language)
 - **猫咪不舒服？** → [常见健康问题自查清单](/health/common-issues-checklist)

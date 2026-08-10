@@ -22,6 +22,14 @@ npm run build      # 构建到 docs/.vitepress/dist
 npm run preview    # 预览构建产物
 ```
 
+## 访问统计（可选）
+
+本站暂未启用访问统计。如需查看访客数据，推荐接入 **Cloudflare Web Analytics**（免费、轻量、无 cookie 横幅）：
+
+1. 注册/登录 Cloudflare → Analytics → Web Analytics → 添加站点，获得 token
+2. 在 `docs/.vitepress/config.mjs` 的 `head` 数组中取消注释「访问统计接入点」，替换为你的 token
+3. 推送 `main` 即生效
+
 ## 如何添加词条
 
 1. 在对应分类目录（`docs/breeds/`、`docs/behavior/` 等）新建 `.md` 文件
