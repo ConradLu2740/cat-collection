@@ -1,51 +1,54 @@
-# 猫咪收藏馆 🐱
+# 猫咪知识库 🐱
 
-Conrad 的个人猫咪收藏分析站，部署于 GitHub Pages。用于收集和分析猫相关的**图片**与**文章**。
+关于猫的知识 wiki —— 品种、行为、健康、饲养、领养、文化。由「猫咪收藏馆」演化而来，基于 **VitePress** 构建，部署于 GitHub Pages。
+
+## 线上地址
+
+**https://conradlu2740.github.io/cat-collection/**
 
 ## 功能
 
-- 🖼️ **图片收藏**：瀑布流图库，按分类/标签筛选，支持搜索与大图灯箱
-- 📰 **文章收藏**：猫科普、养护、行为等文章的收藏列表，标签筛选与搜索
-- 📊 **数据分析**：标签排行、收藏趋势、分类分布、来源站排行（Chart.js 图表）
-- 🏠 **首页仪表盘**：收藏总量统计与最新收藏预览
+- 📖 **词条式知识库**：6 大分类（品种百科 / 行为与沟通 / 健康与疾病 / 饲养与养护 / 领养与救助 / 历史与文化）
+- 🔗 **词条互链**：相关词条双向链接，形成知识网络
+- 🔍 **本地全文搜索**：无需后端
+- 📱 响应式 + Apple 风格主题
 
-## 使用方式
-
-### 本地预览
+## 开发
 
 ```bash
-cd cat-collection
-python3 -m http.server 8000
-# 打开 http://localhost:8000
+npm install        # 安装依赖
+npm run dev        # 本地开发（http://localhost:5173）
+npm run build      # 构建到 docs/.vitepress/dist
+npm run preview    # 预览构建产物
 ```
 
-### 添加收藏
+## 如何添加词条
 
-1. **图片**：把图片放入 `images/` 目录，在 `data/images.json` 的 `images` 数组追加一条记录（id 唯一，file 指向图片相对路径）。
-2. **文章**：在 `data/articles.json` 的 `articles` 数组追加记录（含标题、原文 URL、来源、标签、摘要）。
-
-数据均为 JSON，添加后页面自动生效（无需重新构建）。
-
-### 部署
-
-推送到 `main` 分支后，GitHub Actions 会自动部署到 GitHub Pages：
-`https://conradlu2740.github.io/cat-collection/`
+1. 在对应分类目录（`docs/breeds/`、`docs/behavior/` 等）新建 `.md` 文件
+2. 按[内容体系规范](docs/guide/content-guide.md)填写 frontmatter 与正文
+3. 在 `docs/.vitepress/config.mjs` 的 sidebar 中登记词条
+4. 推送到 `main`，GitHub Actions 自动构建部署
 
 ## 目录结构
 
 ```
-cat-collection/
-├── index.html          # 首页仪表盘
-├── gallery.html        # 图片收藏页
-├── articles.html       # 文章收藏页
-├── analytics.html      # 数据分析页
-├── css/style.css       # 全局样式
-├── js/                 # 页面逻辑
-├── data/               # 收藏数据（JSON）
-├── images/             # 收藏图片（当前为示例 SVG 插画）
-└── .github/workflows/  # Pages 部署工作流
+docs/
+├── index.md              # 首页
+├── .vitepress/           # 配置与主题
+├── breeds/               # 品种百科
+├── behavior/             # 行为与沟通
+├── health/               # 健康与疾病
+├── care/                 # 饲养与养护
+├── adoption/             # 领养与救助
+├── culture/              # 历史与文化
+├── guide/                # 关于本站 / 内容规范
+└── public/images/        # 图库资源
 ```
 
-> 当前内置的图片与文章均为**示例数据**，用于展示页面效果，可随时替换为真实收藏。
+## 历史
+
+- 2026-08-10：从「猫咪收藏站」（纯静态 HTML/JSON）迁移为 VitePress 知识 wiki，转化 18 个种子词条
+
+> 免责声明：健康与疾病栏目内容仅供参考，不能替代兽医诊断。
 
 Made with [Proma](https://proma.cool) · [GitHub](https://github.com/proma-ai/Proma)
