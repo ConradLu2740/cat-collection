@@ -6,6 +6,7 @@ tags: [TNR, 救助, 流浪猫]
 updated: 2026-08-10
 sources:
   - site: 公开科普
+    date: 2026-08-10
     title: TNR 理念与操作整理（原创改写）
 ---
 

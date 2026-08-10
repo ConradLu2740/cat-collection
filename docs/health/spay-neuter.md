@@ -6,6 +6,7 @@ tags: [绝育, 健康, 发情]
 updated: 2026-08-10
 sources:
   - site: 公开科普
+    date: 2026-08-10
     title: 猫绝育科普整理（原创改写）
 ---
 

@@ -6,8 +6,8 @@ tags: [领养, 流浪猫, 入门]
 updated: 2026-08-10
 sources:
   - site: 知乎
-    title: 领养流浪猫经验帖整理（参考改写）
-    url: https://www.zhihu.com/
+    title: 领养流浪猫经验帖整理（参考改写，具体文章链接待补充）
+    date: 2026-08-10
 ---
 
 # 流浪猫领养指南

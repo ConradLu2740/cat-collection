@@ -6,8 +6,8 @@ tags: [健康, 症状, 自查]
 updated: 2026-08-10
 sources:
   - site: 果壳
-    title: 猫健康科普系列（参考改写）
-    url: https://www.guokr.com/
+    title: 猫健康科普系列（参考改写，具体文章链接待补充）
+    date: 2026-08-10
 ---
 
 # 猫常见健康问题自查清单

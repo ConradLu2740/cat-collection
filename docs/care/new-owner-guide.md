@@ -6,8 +6,8 @@ tags: [新手, 接猫, 物品准备]
 updated: 2026-08-10
 sources:
   - site: 果壳
-    title: 新手养猫系列科普（参考改写）
-    url: https://www.guokr.com/
+    title: 新手养猫系列科普（参考改写，具体文章链接待补充）
+    date: 2026-08-10
 ---
 
 # 新手养猫全指南

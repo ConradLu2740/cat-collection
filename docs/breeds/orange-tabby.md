@@ -6,6 +6,7 @@ tags: [橘猫, 短毛, 花色]
 updated: 2026-08-10
 sources:
   - site: 公开资料
+    date: 2026-08-10
     title: 橘猫常见特征整理（原创改写）
 ---
 
@@ -35,7 +36,7 @@ sources:
 ## 相关词条
 
 - [中华田园猫](/breeds/domestic-cat)
-- [猫咪毛色大全](/breeds/domestic-cat)（规划中）
+- 猫咪毛色大全（规划中）
 
 ## 参考资料
 

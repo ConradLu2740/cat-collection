@@ -6,6 +6,7 @@ tags: [布偶, 长毛, 纯种猫]
 updated: 2026-08-10
 sources:
   - site: 公开资料
+    date: 2026-08-10
     title: 布偶猫品种特征整理（原创改写）
 ---
 
@@ -37,7 +38,7 @@ sources:
 
 - [英国短毛猫](/breeds/british-shorthair)
 - [美国短毛猫](/breeds/american-shorthair)
-- [猫的日常护理](/care/diet-nutrition)（规划中）
+- 猫的日常护理（规划中）
 
 ## 参考资料
 

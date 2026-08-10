@@ -6,6 +6,7 @@ tags: [田园猫, 本土猫, 花色]
 updated: 2026-08-10
 sources:
   - site: 公开资料
+    date: 2026-08-10
     title: 中华田园猫特征整理（原创改写）
 ---
 
@@ -37,7 +38,7 @@ sources:
 
 - [橘猫](/breeds/orange-tabby)
 - [流浪猫领养指南](/adoption/adoption-guide)
-- [猫咪毛色大全](/breeds/domestic-cat)（规划中）
+- 猫咪毛色大全（规划中）
 
 ## 参考资料
 

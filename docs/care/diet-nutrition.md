@@ -6,6 +6,7 @@ tags: [饮食, 营养, 喂养]
 updated: 2026-08-10
 sources:
   - site: 公开科普
+    date: 2026-08-10
     title: 猫营养学基础整理（原创改写）
 ---
 

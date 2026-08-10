@@ -7,11 +7,33 @@ export default defineConfig({
   base: '/cat-collection/',
   cleanUrls: true,
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://conradlu2740.github.io/cat-collection'
+  },
   head: [
     ['meta', { name: 'theme-color', content: '#0071E3' }],
-    ['link', { rel: 'icon', href: '/cat-collection/favicon.svg' }]
+    ['link', { rel: 'icon', href: '/cat-collection/favicon.svg' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: '猫咪知识库' }],
+    ['meta', { property: 'og:title', content: '猫咪知识库' }],
+    ['meta', { property: 'og:description', content: '关于猫的知识 wiki —— 品种、行为、健康、饲养、领养、文化' }],
+    ['meta', { property: 'og:image', content: '/cat-collection/images/hero-wide.svg' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:title', content: '猫咪知识库' }],
+    ['meta', { name: 'twitter:description', content: '关于猫的知识 wiki —— 品种、行为、健康、饲养、领养、文化' }]
   ],
+  transformHead({ pageData }) {
+    const rel = pageData.relativePath.replace(/\.md$/, '')
+    const url = rel === 'index'
+      ? 'https://conradlu2740.github.io/cat-collection/'
+      : `https://conradlu2740.github.io/cat-collection/${rel}`
+    return [
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:url', content: url }]
+    ]
+  },
   themeConfig: {
+    font: false,
     logo: '/paw.svg',
     siteTitle: '猫咪知识库',
     nav: [
@@ -21,8 +43,7 @@ export default defineConfig({
       { text: '健康与疾病', link: '/health/' },
       { text: '饲养与养护', link: '/care/' },
       { text: '领养与救助', link: '/adoption/' },
-      { text: '历史与文化', link: '/culture/' },
-      { text: '内容规范', link: '/guide/content-guide' }
+      { text: '历史与文化', link: '/culture/' }
     ],
     sidebar: {
       '/breeds/': [
@@ -70,7 +91,10 @@ export default defineConfig({
       ],
       '/culture/': [
         { text: '历史与文化', items: [
-          { text: '历史与文化总览', link: '/culture/' }
+          { text: '历史与文化总览', link: '/culture/' },
+          { text: '猫的历史', link: '/culture/cat-history' },
+          { text: '猫在中国文化中', link: '/culture/cat-in-china' },
+          { text: '猫的冷知识合集', link: '/culture/cat-facts' }
         ]}
       ],
       '/guide/': [
