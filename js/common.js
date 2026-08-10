@@ -76,8 +76,10 @@ const PAW_SVG = `
 /* ---------- 页脚 ---------- */
 const FOOTER_HTML = `
 <footer class="site-footer">
-  <div>🐾 猫咪收藏馆 · 个人收藏与分析 · 数据保存在 <a href="https://github.com/ConradLu2740/cat-collection" target="_blank" rel="noopener">GitHub</a></div>
-  <div style="margin-top:4px;">Made with <a href="https://proma.cool" target="_blank" rel="noopener">Proma</a> · <a href="https://github.com/proma-ai/Proma" target="_blank" rel="noopener">GitHub</a></div>
+  <div class="footer-inner">
+    <div>Copyright © 2026 猫咪收藏馆 · 由 Conrad 维护 · 数据存储在 <a href="https://github.com/ConradLu2740/cat-collection" target="_blank" rel="noopener">GitHub</a></div>
+    <div>Made with <a href="https://proma.cool" target="_blank" rel="noopener">Proma</a> · <a href="https://github.com/proma-ai/Proma" target="_blank" rel="noopener">GitHub</a></div>
+  </div>
 </footer>`;
 
 /** 渲染顶部导航（标记当前页） */
@@ -85,10 +87,10 @@ function renderNav(activeKey) {
   const nav = document.getElementById('site-nav');
   if (!nav) return;
   const links = [
-    { key: 'index', label: '🏠 首页', href: 'index.html' },
-    { key: 'gallery', label: '🖼️ 图片收藏', href: 'gallery.html' },
-    { key: 'articles', label: '📰 文章收藏', href: 'articles.html' },
-    { key: 'analytics', label: '📊 数据分析', href: 'analytics.html' }
+    { key: 'index', label: '首页', href: 'index.html' },
+    { key: 'gallery', label: '图片收藏', href: 'gallery.html' },
+    { key: 'articles', label: '文章收藏', href: 'articles.html' },
+    { key: 'analytics', label: '数据分析', href: 'analytics.html' }
   ];
   nav.innerHTML = links.map(l =>
     `<a href="${l.href}" class="${l.key === activeKey ? 'active' : ''}">${l.label}</a>`

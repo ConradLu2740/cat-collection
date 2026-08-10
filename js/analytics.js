@@ -12,10 +12,11 @@
     }
 
     Chart.defaults.font.family = getComputedStyle(document.body).fontFamily;
-    Chart.defaults.color = '#8A6B55';
-    Chart.defaults.borderColor = '#F0DFC8';
+    Chart.defaults.color = '#86868B';
+    Chart.defaults.borderColor = 'rgba(0,0,0,0.08)';
 
-    const palette = ['#F5A623', '#E8836B', '#7FB069', '#7BB8FF', '#B07BD8', '#F0B85A', '#6FB7A8', '#D96A5A'];
+    // iOS 系统色板
+    const palette = ['#0071E3', '#AF52DE', '#FF9500', '#34C759', '#FF2D55', '#5856D6', '#FFCC00', '#5AC8FA'];
 
     /* 1. 标签排行 */
     const tagCounts = new Map();
@@ -58,11 +59,11 @@
         datasets: [{
           label: '新增收藏',
           data: monthData,
-          borderColor: '#E8836B',
-          backgroundColor: 'rgba(232, 131, 107, 0.15)',
+          borderColor: '#0071E3',
+          backgroundColor: 'rgba(0, 113, 227, 0.10)',
           fill: true,
           tension: 0.35,
-          pointBackgroundColor: '#F5A623',
+          pointBackgroundColor: '#0071E3',
           pointRadius: 5
         }]
       },
@@ -105,7 +106,7 @@
         datasets: [{
           label: '文章数',
           data: topSrc.map(([, n]) => n),
-          backgroundColor: '#7BB8FF',
+          backgroundColor: '#0071E3',
           borderRadius: 6
         }]
       },
