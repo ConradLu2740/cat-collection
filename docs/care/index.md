@@ -6,4 +6,6 @@
 
 - [新手养猫全指南](/care/new-owner-guide)
 - [猫的饮食与营养](/care/diet-nutrition)
+- [猫的日常护理](/care/grooming)
 - [猫砂与如厕训练](/care/litter-box)
+- [猫的玩具与丰容](/care/enrichment)

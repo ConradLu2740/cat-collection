@@ -49,11 +49,14 @@ export default defineConfig({
       '/breeds/': [
         { text: '品种百科', items: [
           { text: '品种百科总览', link: '/breeds/' },
+          { text: '中华田园猫', link: '/breeds/domestic-cat' },
           { text: '橘猫', link: '/breeds/orange-tabby' },
+          { text: '猫咪毛色大全', link: '/breeds/coat-colors' },
+          { text: '幼猫成长阶段', link: '/breeds/kitten-growth' },
+          { text: '流浪猫', link: '/breeds/stray-cat' },
           { text: '布偶猫', link: '/breeds/ragdoll' },
           { text: '英国短毛猫', link: '/breeds/british-shorthair' },
-          { text: '美国短毛猫', link: '/breeds/american-shorthair' },
-          { text: '中华田园猫', link: '/breeds/domestic-cat' }
+          { text: '美国短毛猫', link: '/breeds/american-shorthair' }
         ]}
       ],
       '/behavior/': [
@@ -63,13 +66,16 @@ export default defineConfig({
           { text: '猫的尾巴语言', link: '/behavior/tail-language' },
           { text: '猫的耳朵语言', link: '/behavior/ear-language' },
           { text: '猫的瞳孔语言', link: '/behavior/eye-language' },
-          { text: '踩奶', link: '/behavior/kneading' }
+          { text: '猫的叫声与喵喵叫', link: '/behavior/cat-vocalizations' },
+          { text: '踩奶', link: '/behavior/kneading' },
+          { text: '猫的睡眠习性', link: '/behavior/sleeping-habits' }
         ]}
       ],
       '/health/': [
         { text: '健康与疾病', items: [
           { text: '健康与疾病总览', link: '/health/' },
           { text: '常见健康问题自查清单', link: '/health/common-issues-checklist' },
+          { text: '猫的常见传染病', link: '/health/infectious-diseases' },
           { text: '疫苗与驱虫', link: '/health/vaccination-deworming' },
           { text: '绝育', link: '/health/spay-neuter' }
         ]}
@@ -79,13 +85,16 @@ export default defineConfig({
           { text: '饲养与养护总览', link: '/care/' },
           { text: '新手养猫全指南', link: '/care/new-owner-guide' },
           { text: '猫的饮食与营养', link: '/care/diet-nutrition' },
-          { text: '猫砂与如厕训练', link: '/care/litter-box' }
+          { text: '猫的日常护理', link: '/care/grooming' },
+          { text: '猫砂与如厕训练', link: '/care/litter-box' },
+          { text: '猫的玩具与丰容', link: '/care/enrichment' }
         ]}
       ],
       '/adoption/': [
         { text: '领养与救助', items: [
           { text: '领养与救助总览', link: '/adoption/' },
           { text: '流浪猫领养指南', link: '/adoption/adoption-guide' },
+          { text: '领养前的心理准备', link: '/adoption/mindset' },
           { text: '流浪猫救助与 TNR', link: '/adoption/tnr' }
         ]}
       ],

@@ -8,4 +8,6 @@
 - [猫的尾巴语言](/behavior/tail-language)
 - [猫的耳朵语言](/behavior/ear-language)
 - [猫的瞳孔语言](/behavior/eye-language)
+- [猫的叫声与喵喵叫](/behavior/cat-vocalizations)
 - [踩奶](/behavior/kneading)
+- [猫的睡眠习性](/behavior/sleeping-habits)

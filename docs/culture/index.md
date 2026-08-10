@@ -4,6 +4,6 @@
 
 ## 词条
 
-- [猫的历史](/culture/cat-history)（规划中）
-- [猫在中国文化中](/culture/cat-in-china)（规划中）
-- [猫的冷知识合集](/culture/cat-facts)（规划中）
+- [猫的历史](/culture/cat-history)
+- [猫在中国文化中](/culture/cat-in-china)
+- [猫的冷知识合集](/culture/cat-facts)

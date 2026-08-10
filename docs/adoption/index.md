@@ -5,4 +5,5 @@
 ## 词条
 
 - [流浪猫领养指南](/adoption/adoption-guide)
+- [领养前的心理准备](/adoption/mindset)
 - [流浪猫救助与 TNR](/adoption/tnr)
